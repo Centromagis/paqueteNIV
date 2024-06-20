@@ -16,7 +16,7 @@ alojado en GitHub durante su etapa de elaboración.
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("dgonxalex80/paqueteNIV")
+devtools::install_github("centromagis/paqueteNIV")
 ```
 
 ## Examplo
