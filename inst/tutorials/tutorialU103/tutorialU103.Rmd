@@ -33,9 +33,9 @@ knitr::include_graphics("images/tutorial_encabezado.jpg")
 
 ### **CONCEPTOS**
 
-La representación gráfica tiene un paple principal  en el análsis de datos. La representación adecuada la información contenida en una base forma parte del proceso de la Ciencia de Datos.
+La representación gráfica tiene un papel principal  en el análisis de datos. La representación adecuada la información contenida en una base forma parte del proceso de la Ciencia de Datos.
 
-La elección del tipo de gráfica está asociada con el tipo de variable y su escla de medición, además de otros factores relacionados con la modelación de lo que se desee resaltar.
+La elección del tipo de gráfica está asociada con el tipo de variable y su escala de medición, además de otros factores relacionados con la modelación de lo que se desee resaltar.
 
 </br></br>
 
@@ -84,8 +84,8 @@ grid()
 quiz(
   question("A partir de la gráfica anterior se puede afirmar que:", 
   allow_retry = TRUE,
-    answer("el nivel tecnológico en promedio es de (12+40+42)/3", message = "No, pero no...intentalo de nuevo!"),
-    answer("el nivel tecnológico presenta un valor medio o promedio igual 40%", message = "Nop...intentalo de nuevo!"),
+    answer("el nivel tecnológico en promedio es de (12+40+42)/3", message = "No, pero no...inténtalo de nuevo!"),
+    answer("el nivel tecnológico presenta un valor medio o promedio igual 40%", message = "Nop...inténtalo de nuevo!"),
     answer("el nivel tecnológico es una variable cualitativa de escala nominal y presenta una moda igual a bajo", message = "Incorrecto. Intenta de nuevo!."),
     answer("la muestra indica que solo un 12% de las empesas analizadas presenta un nivel tecnológico bajo", correct = TRUE),
     # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
@@ -105,8 +105,8 @@ quiz(
 quiz( 
   question("El diagrama de barras se utiliza para representar", 
   allow_retry = TRUE,
-    answer("variables cualitativas de razón", message = "No, pero no...intentalo de nuevo!"),
-    answer("variables cuantitativas discretas", message = "Nop...intentalo de nuevo!"),
+    answer("variables cualitativas de razón", message = "No, pero no...inténtalo de nuevo!"),
+    answer("variables cuantitativas discretas", message = "Nop...inténtalo de nuevo!"),
     answer("variables cuantitativas continuas", message = "Incorrecto. Intenta de nuevo!."),
     answer("variables cuantitativas ordinales", correct = TRUE),
     # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
@@ -126,8 +126,8 @@ quiz(
 quiz(  
   question("El diagrama de cajas permite", 
   allow_retry = TRUE,
-    answer("visualizar la media de los datos", message = "No, pero no...intentalo de nuevo!"),
-    answer("estimar la varianza de los datos", message = "Nop...intentalo de nuevo!"),
+    answer("visualizar la media de los datos", message = "No, pero no...inténtalo de nuevo!"),
+    answer("estimar la varianza de los datos", message = "Nop...inténtalo de nuevo!"),
     answer("detectar los valores atípicos", correct = TRUE),
     answer("si existen valores faltantes", message = "Incorrecto. Intenta de nuevo!."),
     # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
@@ -147,8 +147,8 @@ quiz(
 quiz(  
   question("El diagrama de dispersión permite esencialmente", 
   allow_retry = TRUE,
-    answer("detectar datos atípicos de una variable", message = "Cerca, pero no...intentalo de nuevo!"),
-    answer("que tan cerca estan los datos de la media", message = "No...intentalo de nuevo!"),
+    answer("detectar datos atípicos de una variable", message = "Cerca, pero no...inténtalo de nuevo!"),
+    answer("que tan cerca estan los datos de la media", message = "No...inténtalo de nuevo!"),
     answer("detectar el grado de asociación lineal entre dos variables cuantitativas", correct = TRUE),
     answer("detectar que variable tiene más valores", message = "Incorrecto. Intenta de nuevo!."),
     # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
@@ -170,9 +170,9 @@ quiz(
   question("El diagrama de tortas se emplea para la representación de variables medidas en escala", 
   allow_retry = TRUE,
     answer("nominal", correct = TRUE),
-    answer("ordinal", message = "Nop...intentalo de nuevo!"),
+    answer("ordinal", message = "Nop...inténtalo de nuevo!"),
     answer("de intervalo", message = "Incorrecto. Intenta de nuevo!."),
-    answer("de razón", message = "No, pero no...intentalo de nuevo!"),
+    answer("de razón", message = "No, pero no...inténtalo de nuevo!"),
     # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
     submit_button = "Enviar respuesta",
       correct = "Correcto!",
@@ -190,8 +190,8 @@ quiz(
 quiz(  
   question("El histograma se utiliza para representar una variable", 
   allow_retry = TRUE,
-    answer("Cualitativa nominal", message = "Cerca, pero no...intentalo de nuevo!"),
-    answer("Cuantitativa ordinal", message = "Nop...intentalo de nuevo!"),
+    answer("Cualitativa nominal", message = "Cerca, pero no...inténtalo de nuevo!"),
+    answer("Cuantitativa ordinal", message = "Nop...inténtalo de nuevo!"),
     answer("Cuantitativa continua", correct = TRUE),
     answer("Cualitativa ordinal", message = "Incorrecto. Intenta de nuevo!."),
     # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
@@ -278,7 +278,7 @@ x[68:70]
 
 ### PROBLEMA 3
 
-El siguiente conjunto de datos corresponden a las edades de dos grupos de estudiantes inscritos a un programa de maestria. Determine visualmente si los dos grupos tienen iguales caracteristicas
+El siguiente conjunto de datos corresponden a las edades de dos grupos de estudiantes inscritos a un programa de maestría. Determine visualmente si los dos grupos tienen iguales características
 
 ```{r p3, exercise=TRUE, exercise.lines = 5}
 G1=c(27, 27, 28, 28, 34, 28, 26, 33, 24, 28, 25, 25, 33, 27, 34, 38, 24, 26, 22, 23, 33, 23, 26, 26, 32, 33, 29, 30, 25, 23) 
@@ -328,7 +328,7 @@ barplot(ev, col=c("#9B3A04","#DE6B07","#FF8F2D","#395F60","#203738"), main = "Ev
 
 ### PROBLEMA 5
 
-El resultado de una encuesta de clima laboral arrojo los siguientes resultados:
+El resultado de una encuesta de clima laboral arrojó los siguientes resultados:
 
 <pre>
 |Pregunta | TA |  A | N | D | TD |

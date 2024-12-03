@@ -50,9 +50,9 @@ knitr::include_graphics("images/mapU2.png")
 quiz(  
   question("Sea P(A) = 0.50 y P(B) = 0.30, donde A y B son eventos independientes. Entonces se puede afirmar que: ", allow_retry = TRUE,
     answer("P(A | B) = 0.50", correct = TRUE), 
-    answer("P(B | A) = 0.50 ", message = "No, pero no...intentalo de nuevo!"),
+    answer("P(B | A) = 0.50 ", message = "No, pero no...inténtalo de nuevo!"),
     answer("P(A ∩ B) =0.50", message = "Incorrecto. Intenta de nuevo!."),
-    answer("P(A ∪ B)= 0.50", message = "No...intentalo de nuevo!"),
+    answer("P(A ∪ B)= 0.50", message = "No...inténtalo de nuevo!"),
     # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
     submit_button = "Enviar respuesta",
     correct = "Correcto!",
@@ -69,8 +69,8 @@ quiz(
 ```{r quiz_2}
 quiz(  
   question("Sea P(A) = 0.50 y P(B) = 0.30 y P(A ∩ B) = 0.20, podemos afirmar que",  allow_retry = TRUE,
-    answer("P(A') = 0.3", message = "No...intentalo de nuevo!"),
-    answer("P(B') = 0.50 ", message = "No, pero no...intentalo de nuevo!"),
+    answer("P(A') = 0.3", message = "No...inténtalo de nuevo!"),
+    answer("P(B') = 0.50 ", message = "No, pero no...inténtalo de nuevo!"),
     answer("P(A ∪ B) = 0.60" , correct = TRUE), 
     answer("P(A ∩ B') = 0.60", message = "Incorrecto. Intenta de nuevo!."),
     # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
@@ -89,10 +89,10 @@ quiz(
 ```{r quiz_3}
 quiz(  
   question("Sea P(A) = 0.50 y P(B) = 0.30 y P(A ∩ B) = 0.20, podemos afirmar que", allow_retry = TRUE,
-    answer("P(A' ∩ B) =0.20", message = "No, pero no...intentalo de nuevo!"),
+    answer("P(A' ∩ B) =0.20", message = "No, pero no...inténtalo de nuevo!"),
     answer("A y B no son eventos independientes", correct = TRUE), 
     answer("A ∩ B = ϕ", message = "Incorrecto. Intenta de nuevo!."),
-    answer("A ∩ B = S", message = "No...intentalo de nuevo!"),
+    answer("A ∩ B = S", message = "No...inténtalo de nuevo!"),
     # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
     submit_button = "Enviar respuesta",
     correct = "Correcto!",
@@ -118,9 +118,9 @@ quiz(
   question("Apartir de ella se puede afirmar: ", 
   allow_retry = TRUE,
     answer("P(A ∩ H) = 190/332", message = "Incorrecto. Intenta de nuevo!."),
-    answer("P(A ∩ M) = 60/478", message = "No, pero no...intentalo de nuevo!"),
+    answer("P(A ∩ M) = 60/478", message = "No, pero no...inténtalo de nuevo!"),
     answer("P(H ∩ B) = 120/810", correct = TRUE),
-    answer("P(M | B) = 280/810", message = "No...intentalo de nuevo!"),
+    answer("P(M | B) = 280/810", message = "No...inténtalo de nuevo!"),
     # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
     submit_button = "Enviar respuesta",
     correct = "Correcto!",
@@ -138,9 +138,9 @@ quiz(
   question("Para cualquier par de eventos A y B, ¿cuál de las siguientes afirmaciones no es cierta?", 
   allow_retry = TRUE,
     answer("P(S) = 1 ", message = "Incorrecto. Intenta de nuevo!."),
-    answer("P(A′) = 1 − P(A) ", message = "No, pero no...intentalo de nuevo!"),
+    answer("P(A′) = 1 − P(A) ", message = "No, pero no...inténtalo de nuevo!"),
     answer("P(A∪B) = P(A) + P(B)", correct = TRUE), 
-    answer("0 ≤ P(A) ≤ 1", message = "No...intentalo de nuevo!"),
+    answer("0 ≤ P(A) ≤ 1", message = "No...inténtalo de nuevo!"),
     # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
     submit_button = "Enviar respuesta",
     correct = "Correcto!",
@@ -180,7 +180,7 @@ cat("P(H | S) = P(H ∩ S) / P(S)=", (28/200)/(78/200))
 
 ### PROBLEMA 2
 
-La probabilidad de que un propietario de un automovil que entra a una estación de servicio necesite cambiarle el aceite es 0.25, la probabilidad de que este mismo cliente tenga que cambiar el filtro de aire es 0.40, y la probabilidad de que se necesite cambiarle el aceite y el filtro es 0.14.  Si se le tiene que cambiar el aceite, ¿cuál es la probabilidad de que también se necesite cambiarle el filtro?
+La probabilidad de que un propietario de un automóvil que entra a una estación de servicio necesite cambiarle el aceite es 0.25, la probabilidad de que este mismo cliente tenga que cambiar el filtro de aire es 0.40, y la probabilidad de que se necesite cambiarle el aceite y el filtro es 0.14.  Si se le tiene que cambiar el aceite, ¿cuál es la probabilidad de que también se necesite cambiarle el filtro?
     
 ```{r p2, exercise=TRUE}
 ```

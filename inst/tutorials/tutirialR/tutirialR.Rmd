@@ -36,7 +36,7 @@ knitr::include_graphics("images/tutorial_encabezado.jpg")
 
 ### **CONCEPTOS**
 
-R es un lenguaje de programación para la realización de análisis estadísticos que está compuesto por un gran número de librerias. 
+R es un lenguaje de programación para la realización de análisis estadísticos que está compuesto por un gran número de librerías. 
 
 
 

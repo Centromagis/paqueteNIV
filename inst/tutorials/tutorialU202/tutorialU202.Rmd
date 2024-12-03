@@ -70,7 +70,7 @@ función que asigna a cada valor de una variable aleatoria discreta un valor de 
 
 #### **función de densidad de probabilidad** : 
 
-función que asigna a cada valor de la variable aletoria contunua un valor. 
+función que asigna a cada valor de la variable aleatoria continua un valor. 
 
 * $f(x)\geq0$  
 * $\displaystyle \int f(x) \hspace{.2cm}dx =1$
@@ -99,30 +99,30 @@ $V[X] = \sigma^2$ : varianza poblacional
 #### **modelos discretos**
 
 * Bernoulli        
-* binomial         
+* Binomial         
 * Poisson         
-* hipergeométrico 
-* geométrico o de Pascal 
-* binomial negativo
+* Hipergeométrico 
+* Geométrico o de Pascal 
+* Binomial negativo
 
 </br></br>
 
 #### **modelos continuos**
 
-* uniforme        
-* normal        
-* exponencial     
-* gamma          
+* Uniforme        
+* Normal        
+* Exponencial     
+* Gamma          
 * Weibull        
 * Cauchy          
-* lognormal       
+* Lognormal       
 * beta          
 * Erlang          
 * Gumbel         
 * t-Student      
 * F               
 * ji-cuadrado   
-* empírica o kernel
+* Empírica o kernel
 
 </br></br>
 
@@ -145,10 +145,10 @@ knitr::include_graphics("images/mapU3.png")
 quiz(  
   question("De las siguientes variables, cuál no es una variable discreta", 
   allow_retry = TRUE,
-    answer("accidentes automovilísticos que ocurren al año en una ciudad determinada ", message = "No, pero no...intentalo de nuevo!"),
+    answer("accidentes automovilísticos que ocurren al año en una ciudad determinada ", message = "No, pero no...inténtalo de nuevo!"),
     answer("permisos para construcción que los funcionarios de una  ciudad emiten cada mes", message = "Incorrecto. Intenta de nuevo!."),
     answer("edad de un estudiante universitario", correct = TRUE), 
-    answer("huevos que una gallina pone mensualmente", message = "Nop...intentalo de nuevo!"),
+    answer("huevos que una gallina pone mensualmente", message = "Nop...inténtalo de nuevo!"),
     # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
     submit_button = "Enviar respuesta",
     correct = "Correcto!",
@@ -166,8 +166,8 @@ quiz(
 quiz(  
   question("De los siguientes modelos, cuál corresponde a un modelo continuo ", 
   allow_retry = TRUE,
-    answer("binomial", message = "Nop...intentalo de nuevo!"),
-    answer("Poisson", message = "No, pero no...intentalo de nuevo!"),
+    answer("binomial", message = "Nop...inténtalo de nuevo!"),
+    answer("Poisson", message = "No, pero no...inténtalo de nuevo!"),
     answer("Bernoulli", message = "Incorrecto. Intenta de nuevo!."),
     answer("exponencial", correct = TRUE), 
     # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
@@ -187,8 +187,8 @@ quiz(
 quiz(  
   question("De los siguientes modelos, cuál no es un modelo continuo", 
   allow_retry = TRUE,
-    answer("normal", message = "Nop...intentalo de nuevo!"),
-    answer("uniforme", message = "No, pero no...intentalo de nuevo!"),
+    answer("normal", message = "Nop...inténtalo de nuevo!"),
+    answer("uniforme", message = "No, pero no...inténtalo de nuevo!"),
     answer("Weibull", message = "Incorrecto. Intenta de nuevo!."),
     answer("binomial" , correct = TRUE), 
     # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
@@ -207,10 +207,10 @@ quiz(
 quiz(  
   question("La función de R que permite simular 1000 números aleatorios con distribución normal con media 10 y varianza 1 es: ", 
   allow_retry = TRUE,
-    answer("pnorm(1000,10,1)", message = "No, pero no...intentalo de nuevo!"),
+    answer("pnorm(1000,10,1)", message = "No, pero no...inténtalo de nuevo!"),
     answer("dnorm(1000,10,1)", message = "Incorrecto. Intenta de nuevo!."),
     answer("rnorm(1000,10,1) ", correct = TRUE), 
-    answer("randnorm(1000,10,1)", message = "Nop...intentalo de nuevo!"),
+    answer("randnorm(1000,10,1)", message = "Nop...inténtalo de nuevo!"),
     # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
     submit_button = "Enviar respuesta",
     correct = "Correcto!",
@@ -235,10 +235,10 @@ Para la variable aleatoria que tiene la siguiente función de distribución de p
 quiz(  
   question("no podemos afirmar que:", 
   allow_retry = TRUE,
-    answer("P(X > 0 ) =3/8", message = "No, pero no...intentalo de nuevo!"),
+    answer("P(X > 0 ) =3/8", message = "No, pero no...inténtalo de nuevo!"),
     answer("P(X ≤ 2 ) =7/8", correct = TRUE), 
     answer("P(X = 2/8) = 0", message = "Incorrecto. Intenta de nuevo!."),
-    answer("P(X > -1)  = 5/8", message = "Nop...intentalo de nuevo!"),
+    answer("P(X > -1)  = 5/8", message = "Nop...inténtalo de nuevo!"),
     # Si no cambiamos estos textos en los botones, se mostrarán en Inglés  
     submit_button = "Enviar respuesta",
     correct = "Correcto!",
@@ -253,7 +253,7 @@ quiz(
 
 ### **PROBLEMA 1**
 
-Para una variable aleatoria con distribución binomial  $X \sim binom(x, n=10, p=0.20)$ determine las probabidades:
+Para una variable aleatoria con distribución binomial  $X \sim binom(x, n=10, p=0.20)$ determine las probabilidades:
 
 a. $P(X =4)$
 
